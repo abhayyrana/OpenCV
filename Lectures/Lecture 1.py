@@ -4,7 +4,7 @@ import cv2
 import numpy as np
 
 # load an image from file
-image1 = cv2.imread('Uploadd_Images/Cat Image png.png')
+image1 = cv2.imread('Uploaded_Images\Cat Image png.png')
 ''' Copy the relative path to the image file '''
 
 if image1 is None:
