@@ -1,0 +1,14 @@
+# Computer Vision library
+opencv-python==4.10.0.84
+
+# Optional: For better performance and additional features
+opencv-contrib-python==4.10.0.84
+
+# OCR (Optical Character Recognition) engine wrapper
+pytesseract==0.3.13
+
+# Image processing library
+Pillow==11.0.0
+
+# Numerical computing library
+numpy==2.1.1
