@@ -3,7 +3,7 @@
 import cv2
 import numpy as np
 
-image1 = cv2.imread('Uploaded_Images\Triangle.jpg')
+image1 = cv2.imread(r'Learning_cv\Uploaded_Images\Triangle.jpg')
 resize = cv2.resize(image1, (400, 400))
 gray = cv2.cvtColor(resize, cv2.COLOR_BGR2GRAY)
 cv2.imshow('Original Image', resize)

@@ -3,7 +3,7 @@
 import cv2
 import numpy as np
 
-image1 = cv2.imread('Uploadd_Images\Cat Image jpg.jpg')
+image1 = cv2.imread(r'Learning_cv\Uploaded_Images\Cat Image jpg.jpg')
 resize = cv2.resize(image1, (800, 600))
 cv2.imshow('Cat Image', resize)
 cv2.waitKey(0)

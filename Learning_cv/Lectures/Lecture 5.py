@@ -3,7 +3,7 @@
 import cv2
 import numpy as np
 
-image1 = cv2.imread('Uploaded_Images\Cat Image jpg.jpg', cv2.IMREAD_GRAYSCALE)
+image1 = cv2.imread(r'Learning_cv\Uploaded_Images\Cat Image jpg.jpg', cv2.IMREAD_GRAYSCALE)
 resize = cv2.resize(image1, (600, 400))
 
 # canny edge detection
