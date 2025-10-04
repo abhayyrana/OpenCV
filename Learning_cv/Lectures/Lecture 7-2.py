@@ -3,9 +3,9 @@
 import cv2
 import numpy as np
 
-face = cv2.CascadeClassifier(r"Learning_cv\Haar Cascades\haarcascade_frontalface_default.xml")
-eye = cv2.CascadeClassifier(r"Learning_cv\Haar Cascades\haarcascade_eye.xml")
-smile = cv2.CascadeClassifier(r"Learning_cv\Haar Cascades\haarcascade_smile.xml")
+face = cv2.CascadeClassifier(r"Haar Cascades\haarcascade_frontalface_default.xml")
+eye = cv2.CascadeClassifier(r"Haar Cascades/haarcascade_eye.xml")
+smile = cv2.CascadeClassifier(r"Haar Cascades\haarcascade_smile.xml")
 
 capture = cv2.VideoCapture(0)
 
